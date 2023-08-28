@@ -1,4 +1,5 @@
 import 'package:flutter_ecommerce/presentation/components/home/header/header.dart';
+import 'package:flutter_ecommerce/presentation/components/home/top_banner/top_banner/top_banner.dart';
 import 'package:flutter_ecommerce/presentation/components/home/top_bar/top_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -21,6 +22,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               TopBar(),
               Header(),
+              TopBanner(),
             ],
           ),
         ),
