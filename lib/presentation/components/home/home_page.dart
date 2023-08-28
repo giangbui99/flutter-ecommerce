@@ -1,3 +1,4 @@
+import 'package:flutter_ecommerce/presentation/components/home/header/header.dart';
 import 'package:flutter_ecommerce/presentation/components/home/top_bar/top_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +20,7 @@ class _HomePageState extends State<HomePage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               TopBar(),
+              Header(),
             ],
           ),
         ),
