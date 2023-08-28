@@ -9,8 +9,8 @@ class BrandDesktop extends StatelessWidget {
       color: const Color(0xFF000000),
       height: 122,
       child: Padding(
-        padding: const EdgeInsets.symmetric(
-          horizontal: 100,
+        padding: EdgeInsets.symmetric(
+          horizontal: MediaQuery.of(context).size.width * 100 / 1440,
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
