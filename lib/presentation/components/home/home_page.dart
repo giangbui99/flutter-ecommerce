@@ -1,3 +1,4 @@
+import 'package:flutter_ecommerce/presentation/components/home/brand/brand.dart';
 import 'package:flutter_ecommerce/presentation/components/home/header/header.dart';
 import 'package:flutter_ecommerce/presentation/components/home/top_banner/top_banner/top_banner.dart';
 import 'package:flutter_ecommerce/presentation/components/home/top_bar/top_bar.dart';
@@ -23,6 +24,7 @@ class _HomePageState extends State<HomePage> {
               TopBar(),
               Header(),
               TopBanner(),
+              Brand(),
             ],
           ),
         ),
